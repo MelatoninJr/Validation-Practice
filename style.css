@@ -1,0 +1,27 @@
+
+
+input[type=email],
+input[type=text],
+input[type=password] {
+    border-color: black;
+}
+
+input:invalid {
+    border-color: red;
+}
+input:focus:invalid {
+    outline: none;
+}
+.error {
+    width: 100%;
+    padding: 0;
+    color: white;
+    background-color: #900;
+    
+    border-color: red;
+    box-sizing: border-box;
+}
+#button {
+    width: 150px;
+    color: black;
+}

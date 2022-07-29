@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="val.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" novalidate>
+            <ul class="list">
+                <li class="listone">
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" name="Email" >
+                    <span class="error" aria-live="polite"></span>
+                </li>
+                <li class="listtwo">
+                    <label for="Country">Country</label>
+                    <input type="text" name="Country" id="Country" minlength="4">
+                    <span class="error" aria-live="polite"></span>
+                </li>
+                <li class="listthree">
+                    <label for="Zipcode">Zipcode</label>
+                    <input type="text" name="Zipcode" id="Zipcode" pattern="[0-9]*">
+                    <span class="error" aria-live="polite"></span>
+                </li>
+                <li class="listfour">
+                    <label for="psw">Password</label>
+                    <input type="password" name="psw" id="psw">
+                </li>
+                <li class="listfive">
+                    <label for="psw">Password Confirmation</label>
+                    <input type="password" name="psw" id="pswcomf">
+                    <span class="error" aria-live="polite"></span>
+                </li>
+                <li class="button">
+                    <label for="submit">Submit</label>
+                    <input  type="button" name="button" id="button">
+                </li>
+
+
+            </ul>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
+
